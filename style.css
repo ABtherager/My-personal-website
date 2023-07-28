@@ -1,0 +1,175 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a default font family and size */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Navigation Bar Styles */
+  nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+  }
+  
+  /* Introduction Section Styles */
+  #introduction {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #introduction h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  #introduction h3 {
+    font-size: 20px;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  #introduction .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* About Me Section Styles */
+  #about {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  #about img {
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  /* My Projects Section Styles */
+  #projects {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #projects h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+  }
+  
+  .project img {
+    border-radius: 5px;
+  }
+  
+  /* Blog Section Styles */
+  #blog {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #blog h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-post {
+    margin-bottom: 40px;
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  
+  form .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav li {
+      margin-bottom: 10px;
+    }
+  
+    #introduction h1 {
+      font-size: 28px;
+    }
+  
+    #introduction h3 {
+      font-size: 18px;
+    }
+  
+    #about img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  
